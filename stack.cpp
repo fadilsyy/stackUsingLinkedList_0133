@@ -102,7 +102,7 @@ int main()
             stack.pop();
             break;
         case 3:
-            stack.peek()
+            stack.peek();
             break;
         default:
             break;
