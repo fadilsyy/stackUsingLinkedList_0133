@@ -20,10 +20,14 @@ private:
 public:
     Stack() {
         top = NULL; // initialize the stack with a null top pointer
+    }
 
+    // push operation insert an element onto the top of the stack
+    int push(int value) {
+        
     }
 };
 
 int main() {
-    
+
 }
