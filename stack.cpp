@@ -45,13 +45,15 @@ public:
     // pop operation: remove the topmost element from the stack
     void pop()
     {
+        Node* temp = top; // create a temporary pointer to the current top node
         if (isEmpty())
         {
             cout << "Stack is empty." << endl;
             return; // update the top pointer to the next node
         }
-        cout << "Popped value: " << top->data << endl;
-        top = top->next; // update the top pointer to the next node
+        cout << "Popped value: " << temp->data << endl;
+        top = temp->next; // update the top pointer to the next node
+        temp = nullptr;
     }
 
     // peek/top operation: retrieve the value of the topmost element without removing it
