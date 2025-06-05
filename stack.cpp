@@ -99,7 +99,8 @@ int main()
             stack.push(value); // push the entered value onto the stack
             break;
         case 2:
-        
+            stack.pop();
+            break;
         default:
             break;
         }
