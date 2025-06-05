@@ -102,6 +102,8 @@ int main()
             stack.pop();
             break;
         case 3:
+            stack.peek()
+            break;
         default:
             break;
         }
