@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Nod
+// Node class representing a single node in the linked list
 class Node {
 public:
     int data;
@@ -13,5 +13,5 @@ public:
 };
 
 class Stack {
-    
+
 };
