@@ -12,7 +12,6 @@ public:
     }
 };
 
-
 // stack class
 class Stack {
 private:
@@ -21,6 +20,6 @@ private:
 public:
     Stack() {
         top = NULL; // initialize the stack with a null top pointer
-        
+
     }
 };
